@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "register-places"
+version = "0.1.0"
+description = ""
+authors = ["shamada <shamada@jeol.co.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pywebio = "^1.5.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.1.0"
+mypy = "^0.931"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
