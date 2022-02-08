@@ -1,504 +1,477 @@
 [
   {
-    "prefecture": "北海道",
-    "cities": [
-      "江別",
-      "千歳",
-      "札幌",
-      "岩見沢",
-      "滝川",
-      "深川",
-      "小樽",
-      "倶知安",
-      "函館",
-      "長万部",
-      "江差",
-      "苫小牧",
-      "室蘭",
-      "浦河",
-      "旭川",
-      "士別",
-      "名寄",
-      "留萌",
-      "稚内",
-      "網走",
-      "北見",
-      "紋別",
-      "帯広",
-      "釧路",
-      "根室",
-      "日高",
-      "富良野",
-      "枝幸",
-      "弟子屈"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道江別市",
+        "geometry": {
+          "location": {
+            "lat": 43.1037667,
+            "lng": 141.5362413
+          }
+        },
+        "name": "江別市",
+        "place_id": "ChIJXSZ2uGQyC18RNGjO8UVOtTI"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "青森県",
-    "cities": [
-      "青森",
-      "八戸",
-      "弘前",
-      "十和田",
-      "むつ",
-      "五所川原"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道千歳市",
+        "geometry": {
+          "location": {
+            "lat": 42.82128669999999,
+            "lng": 141.6510125
+          }
+        },
+        "name": "千歳市",
+        "place_id": "ChIJO-USq4MmdV8RYREnMTSMkns"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "岩手県",
-    "cities": [
-      "盛岡",
-      "一関",
-      "釜石",
-      "北上",
-      "宮古",
-      "久慈",
-      "二戸",
-      "大船渡",
-      "花巻",
-      "奥州"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道札幌市",
+        "geometry": {
+          "location": {
+            "lat": 43.0617713,
+            "lng": 141.3544507
+          }
+        },
+        "name": "札幌市",
+        "place_id": "ChIJMzaXWnXUCl8R1bqHRp1-kzM"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "宮城県",
-    "cities": [
-      "仙台",
-      "石巻",
-      "大崎",
-      "気仙沼",
-      "白石"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道岩見沢市",
+        "geometry": {
+          "location": {
+            "lat": 43.1753202,
+            "lng": 141.8309669
+          }
+        },
+        "name": "岩見沢市",
+        "place_id": "ChIJNTQoFndMC18R_jF13XO3p0Q"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "秋田県",
-    "cities": [
-      "秋田",
-      "大館",
-      "能代",
-      "由利本荘",
-      "大仙",
-      "横手",
-      "湯沢"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、〒111-8511 東京都台東区元浅草３丁目２−１",
+        "geometry": {
+          "location": {
+            "lat": 35.706858,
+            "lng": 139.786987
+          }
+        },
+        "name": "滝川株式会社",
+        "place_id": "ChIJ36VjwLuOGGARVVKVzkpTlW8"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "山形県",
-    "cities": [
-      "山形",
-      "米沢",
-      "新庄",
-      "酒田",
-      "鶴岡"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、〒135-0033 東京都江東区深川",
+        "geometry": {
+          "location": {
+            "lat": 35.6763054,
+            "lng": 139.7978028
+          }
+        },
+        "name": "深川",
+        "place_id": "ChIJrfS7DRSJGGARr_jVChLFQq0"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "福島県",
-    "cities": [
-      "福島",
-      "郡山",
-      "白河",
-      "会津若松",
-      "いわき",
-      "南相馬",
-      "相馬",
-      "南会津"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道小樽市",
+        "geometry": {
+          "location": {
+            "lat": 43.1902372,
+            "lng": 140.994172
+          }
+        },
+        "name": "小樽市",
+        "place_id": "ChIJO3nvmK7fCl8RodlajWJ7Pgo"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "茨城県",
-    "cities": [
-      "鹿嶋",
-      "古河",
-      "筑西",
-      "土浦",
-      "日立",
-      "水戸"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道虻田郡倶知安町",
+        "geometry": {
+          "location": {
+            "lat": 42.9023044,
+            "lng": 140.7565005
+          }
+        },
+        "name": "倶知安町",
+        "place_id": "ChIJfTTAx-q5Cl8Rqx93lDjX1c0"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "栃木県",
-    "cities": [
-      "足利",
-      "宇都宮",
-      "小山",
-      "日光",
-      "那須塩原"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道函館市",
+        "geometry": {
+          "location": {
+            "lat": 41.7686961,
+            "lng": 140.7290599
+          }
+        },
+        "name": "函館市",
+        "place_id": "ChIJIU281S1cnl8RW8N4lip9fZE"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "群馬県",
-    "cities": [
-      "桐生",
-      "渋川",
-      "高崎",
-      "沼田",
-      "前橋",
-      "草津"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道山越郡長万部町",
+        "geometry": {
+          "location": {
+            "lat": 42.5135467,
+            "lng": 140.380348
+          }
+        },
+        "name": "長万部町",
+        "place_id": "ChIJTbd-yur0n18RHD0XmLcs-ts"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "埼玉県",
-    "cities": [
-      "さいたま",
-      "春日部",
-      "川越",
-      "熊谷",
-      "秩父",
-      "草加",
-      "所沢",
-      "東松山"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道檜山郡江差町",
+        "geometry": {
+          "location": {
+            "lat": 41.8692269,
+            "lng": 140.1275273
+          }
+        },
+        "name": "江差町",
+        "place_id": "ChIJMYy-Nt4en18ROiAzgYaiZBk"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "千葉県",
-    "cities": [
-      "柏",
-      "木更津",
-      "千葉",
-      "成田"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道苫小牧市",
+        "geometry": {
+          "location": {
+            "lat": 42.63124639999999,
+            "lng": 141.6031222
+          }
+        },
+        "name": "苫小牧市",
+        "place_id": "ChIJiSKzxdUZdV8RDVulphgOYG4"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "東京都",
-    "cities": [
-      "浅草橋",
-      "池袋",
-      "上野",
-      "五反田",
-      "新宿",
-      "渋谷",
-      "品川",
-      "巣鴨",
-      "日本橋",
-      "八王子"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道室蘭市",
+        "geometry": {
+          "location": {
+            "lat": 42.3151792,
+            "lng": 140.9737666
+          }
+        },
+        "name": "室蘭市",
+        "place_id": "ChIJXT2vKcnbn18RDbMPCapO1C8"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "神奈川県",
-    "cities": [
-      "厚木",
-      "小田原",
-      "相模原",
-      "横須賀",
-      "横浜",
-      "川崎"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道浦河郡浦河町",
+        "geometry": {
+          "location": {
+            "lat": 42.1686147,
+            "lng": 142.7684545
+          }
+        },
+        "name": "浦河町",
+        "place_id": "ChIJS_ZTecImdF8RdXzdBoUjOEo"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "新潟県",
-    "cities": [
-      "村上",
-      "新潟",
-      "長岡",
-      "上越",
-      "糸魚川",
-      "南魚沼",
-      "三条",
-      "十日町"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道旭川市",
+        "geometry": {
+          "location": {
+            "lat": 43.7708833,
+            "lng": 142.3650083
+          }
+        },
+        "name": "旭川市",
+        "place_id": "ChIJwwqCmgznDF8RsgnBr9YtEn4"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "富山県",
-    "cities": [
-      "魚津",
-      "富山",
-      "高岡",
-      "砺波"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道士別市",
+        "geometry": {
+          "location": {
+            "lat": 44.1786188,
+            "lng": 142.4001131
+          }
+        },
+        "name": "士別市",
+        "place_id": "ChIJPYlg32anDV8RRBKQk3l-1OE"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "石川県",
-    "cities": [
-      "小松",
-      "金沢",
-      "七尾",
-      "輪島"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道名寄市",
+        "geometry": {
+          "location": {
+            "lat": 44.3560311,
+            "lng": 142.4631977
+          }
+        },
+        "name": "名寄市",
+        "place_id": "ChIJEzoT49aVDV8Ra2LVHLOyY2U"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "福井県",
-    "cities": [
-      "福井",
-      "敦賀"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道留萌市",
+        "geometry": {
+          "location": {
+            "lat": 43.9410074,
+            "lng": 141.6369432
+          }
+        },
+        "name": "留萌市",
+        "place_id": "ChIJJQoE_zFhDF8RPbceFPIfZk4"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "山梨県",
-    "cities": [
-      "大月",
-      "甲府",
-      "韮崎",
-      "富士吉田",
-      "身延"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道稚内市",
+        "geometry": {
+          "location": {
+            "lat": 45.4156307,
+            "lng": 141.6733641
+          }
+        },
+        "name": "稚内市",
+        "place_id": "ChIJYytB70EwEF8RTMI1gt_NSGo"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "長野県",
-    "cities": [
-      "飯田",
-      "上田",
-      "小諸",
-      "塩尻",
-      "諏訪",
-      "長野",
-      "松本"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道網走市",
+        "geometry": {
+          "location": {
+            "lat": 44.0206059,
+            "lng": 144.2734837
+          }
+        },
+        "name": "網走市",
+        "place_id": "ChIJ8xP4PUE2bV8RnzJvgDoJv6U"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "岐阜県",
-    "cities": [
-      "岐阜",
-      "高山",
-      "大垣",
-      "美濃加茂",
-      "多治見"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道北見市",
+        "geometry": {
+          "location": {
+            "lat": 43.8039761,
+            "lng": 143.8957837
+          }
+        },
+        "name": "北見市",
+        "place_id": "ChIJJyl2-6JVDV8RNT7L_Uif_sg"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "静岡県",
-    "cities": [
-      "静岡",
-      "浜松",
-      "沼津",
-      "御前崎"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道紋別市",
+        "geometry": {
+          "location": {
+            "lat": 44.3564386,
+            "lng": 143.3543524
+          }
+        },
+        "name": "紋別市",
+        "place_id": "ChIJs1lAMo2cEl8RiCwSMG7QBh0"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "愛知県",
-    "cities": [
-      "名古屋",
-      "豊橋",
-      "豊田"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道帯広市",
+        "geometry": {
+          "location": {
+            "lat": 42.9233354,
+            "lng": 143.197199
+          }
+        },
+        "name": "帯広市",
+        "place_id": "ChIJ5-d2UcSHc18RyHbb6bToaxc"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "三重県",
-    "cities": [
-      "津",
-      "四日市",
-      "伊勢",
-      "尾鷲",
-      "伊賀",
-      "松阪"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道釧路市",
+        "geometry": {
+          "location": {
+            "lat": 42.9849413,
+            "lng": 144.3818041
+          }
+        },
+        "name": "釧路市",
+        "place_id": "ChIJ0-NaIlRdcl8ReqtC8oEIzgQ"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "滋賀県",
-    "cities": [
-      "大津"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道根室市",
+        "geometry": {
+          "location": {
+            "lat": 43.3301005,
+            "lng": 145.5828181
+          }
+        },
+        "name": "根室市",
+        "place_id": "ChIJtW1uJHUvbF8RTpqPxlvQvKA"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "京都府",
-    "cities": [
-      "福知山",
-      "舞鶴",
-      "京都",
-      "堀川五条"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、埼玉県日高市",
+        "geometry": {
+          "location": {
+            "lat": 35.907725,
+            "lng": 139.3390159
+          }
+        },
+        "name": "日高市",
+        "place_id": "ChIJjyNMEkIoGWARRmgthOct6MY"
+      },
+      {
+        "formatted_address": "日本、北海道沙流郡日高町",
+        "geometry": {
+          "location": {
+            "lat": 42.48032569999999,
+            "lng": 142.0744267
+          }
+        },
+        "name": "日高町",
+        "place_id": "ChIJg2MLs3r1dF8RIVYAM82vBeI"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "大阪府",
-    "cities": [
-      "大阪",
-      "梅田新道",
-      "難波",
-      "大阪港",
-      "南港",
-      "深江橋",
-      "堺"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道富良野市",
+        "geometry": {
+          "location": {
+            "lat": 43.3420458,
+            "lng": 142.3831624
+          }
+        },
+        "name": "富良野市",
+        "place_id": "ChIJj1EPMdVPc18RKt8wkJs2fB8"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "兵庫県",
-    "cities": [
-      "神戸",
-      "姫路",
-      "豊岡",
-      "洲本",
-      "三宮",
-      "神戸"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道枝幸郡枝幸町",
+        "geometry": {
+          "location": {
+            "lat": 44.9387043,
+            "lng": 142.5813978
+          }
+        },
+        "name": "枝幸町",
+        "place_id": "ChIJm6fDkCH4EV8RAmB7qkFw_bY"
+      }
+    ],
+    "status": "OK"
   },
   {
-    "prefecture": "奈良県",
-    "cities": [
-      "奈良",
-      "大和郡山",
-      "天理",
-      "橿原",
-      "大和高田",
-      "五條"
-    ]
-  },
-  {
-    "prefecture": "和歌山県",
-    "cities": [
-      "和歌山",
-      "田辺",
-      "新宮"
-    ]
-  },
-  {
-    "prefecture": "鳥取県",
-    "cities": [
-      "米子",
-      "倉吉",
-      "鳥取"
-    ]
-  },
-  {
-    "prefecture": "島根県",
-    "cities": [
-      "出雲",
-      "益田",
-      "大田",
-      "松江",
-      "浜田"
-    ]
-  },
-  {
-    "prefecture": "岡山県",
-    "cities": [
-      "津山",
-      "新見",
-      "岡山"
-    ]
-  },
-  {
-    "prefecture": "広島県",
-    "cities": [
-      "広島",
-      "福山",
-      "三次"
-    ]
-  },
-  {
-    "prefecture": "山口県",
-    "cities": [
-      "山口",
-      "宇部",
-      "周南",
-      "岩国",
-      "萩",
-      "下関"
-    ]
-  },
-  {
-    "prefecture": "徳島県",
-    "cities": [
-      "徳島",
-      "三好市",
-      "つるぎ"
-    ]
-  },
-  {
-    "prefecture": "香川県",
-    "cities": [
-      "高松"
-    ]
-  },
-  {
-    "prefecture": "愛媛県",
-    "cities": [
-      "松山",
-      "今治",
-      "宇和島",
-      "西条",
-      "大洲"
-    ]
-  },
-  {
-    "prefecture": "高知県",
-    "cities": [
-      "高知",
-      "室戸",
-      "四万十市",
-      "須崎",
-      "足摺岬"
-    ]
-  },
-  {
-    "prefecture": "福岡県",
-    "cities": [
-      "福岡",
-      "久留米",
-      "大牟田",
-      "飯塚",
-      "北九州"
-    ]
-  },
-  {
-    "prefecture": "佐賀県",
-    "cities": [
-      "唐津",
-      "鳥栖",
-      "武雄",
-      "佐賀",
-      "伊万里"
-    ]
-  },
-  {
-    "prefecture": "長崎県",
-    "cities": [
-      "佐世保",
-      "諫早",
-      "島原",
-      "大村",
-      "長崎"
-    ]
-  },
-  {
-    "prefecture": "熊本県",
-    "cities": [
-      "八代",
-      "人吉",
-      "水俣",
-      "天草",
-      "宇土",
-      "熊本",
-      "荒尾"
-    ]
-  },
-  {
-    "prefecture": "大分県",
-    "cities": [
-      "中津",
-      "日田",
-      "佐伯",
-      "大分",
-      "宇佐",
-      "別府"
-    ]
-  },
-  {
-    "prefecture": "宮崎県",
-    "cities": [
-      "都城",
-      "延岡",
-      "日南",
-      "小林",
-      "宮崎"
-    ]
-  },
-  {
-    "prefecture": "鹿児島県",
-    "cities": [
-      "薩摩川内",
-      "鹿屋",
-      "枕崎",
-      "霧島",
-      "鹿児島"
-    ]
-  },
-  {
-    "prefecture": "沖縄県",
-    "cities": [
-      "辺戸岬",
-      "沖縄",
-      "那覇",
-      "名護",
-      "海洋博公園"
-    ]
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道川上郡弟子屈町",
+        "geometry": {
+          "location": {
+            "lat": 43.48534799999999,
+            "lng": 144.4592988
+          }
+        },
+        "name": "弟子屈町",
+        "place_id": "ChIJ8Qolai96bV8RQJ81e0F8ogw"
+      }
+    ],
+    "status": "OK"
   }
 ]

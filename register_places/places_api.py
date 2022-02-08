@@ -1,3 +1,4 @@
+import dataclasses
 import os
 
 import googlemaps
@@ -8,12 +9,38 @@ load_dotenv(verbose=True)
 gmaps = googlemaps.Client(key=os.environ.get("GOOGLE_MAP_API_KEY"))
 
 
-def find_place(name: str) -> dict:
+@dataclasses.dataclass
+class Location:
+    lat: float
+    lng: float
+
+
+@dataclasses.dataclass
+class Geometry:
+    location: Location
+
+
+@dataclasses.dataclass
+class Candidate:
+    formatted_address: str
+    name: str
+    place_id: str
+    geometry: Geometry
+
+
+@dataclasses.dataclass
+class GoogleApiResponse:
+    candidates: list[Candidate]
+    status: str
+
+
+def find_place(name: str) -> GoogleApiResponse:
     result: dict = gmaps.find_place(
         input=[name],
         input_type="textquery",
         fields=["formatted_address", "place_id", "geometry/location", "name"],
     )
-    print(result)
 
-    return result
+    res = GoogleApiResponse(**result)
+
+    return res

@@ -1,8 +1,17 @@
 import csv
+import dataclasses
+from itertools import chain
 import json
 from typing import Any
 
 from places_api import find_place
+from register_places.places_api import GoogleApiResponse
+
+
+@dataclasses.dataclass
+class Cities:
+    prefecture: str
+    cities: list[str]
 
 
 def read() -> list[list[str]]:
@@ -27,21 +36,21 @@ def write(obj: Any):
         )
 
 
-def find_cities(cities: list[str], prefecture: str):
-    for city in cities:
-        place = find_place(city)
+def build_place(place: list[str]):
+    prefecture = place[0]
+    cities = place[1].split("、")
 
-        print(prefecture)
-        print(place.get("formatted_address", ""))
+    return Cities(prefecture, cities)
 
-        if prefecture in place.get("formatted_address", ""):
-            print(place)
-        else:
-            print(False)
+
+def find_cities(cities: list[str]) -> list[GoogleApiResponse]:
+    return [find_place(city) for city in cities]
 
 
 if __name__ == "__main__":
     outputs = read()
-    obj = [{"prefecture": output[0], "cities": output[1].split("、")} for output in outputs]
-    find_cities(obj[0]["cities"], obj[0]["prefecture"])
-    write(obj)
+    places = [build_place(output) for output in outputs]
+
+    cities = chain.from_iterable([find_cities(place.cities) for place in places])
+
+    write([dataclasses.asdict(city) for city in cities])
