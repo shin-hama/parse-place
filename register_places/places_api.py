@@ -1,5 +1,6 @@
 import dataclasses
 import os
+from typing import Any
 
 import googlemaps
 from dotenv import load_dotenv
@@ -35,7 +36,7 @@ class GoogleApiResponse:
 
 
 def find_place(name: str) -> GoogleApiResponse:
-    result: dict = gmaps.find_place(
+    result: dict[str, Any] = gmaps.find_place(
         input=[name],
         input_type="textquery",
         fields=["formatted_address", "place_id", "geometry/location", "name"],

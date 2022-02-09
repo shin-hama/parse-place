@@ -8,6 +8,7 @@ authors = ["shamada <shamada@jeol.co.jp>"]
 python = "^3.9"
 googlemaps = "^4.6.0"
 python-dotenv = "^0.19.2"
+gql = {extras = ["all"], version = "^3.0.0"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

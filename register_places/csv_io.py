@@ -15,7 +15,7 @@ def read(path: str) -> list[list[str]]:
     return outputs[1:]
 
 
-def write(obj: Any, path: str):
+def write(obj: Any, path: str) -> None:
     with open(path, mode="w", encoding="utf-8") as f:
         json.dump(
             obj,

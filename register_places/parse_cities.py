@@ -17,7 +17,7 @@ class City(Candidate):
     prefecture: str
 
 
-def build_place(place: list[str]):
+def build_place(place: list[str]) -> Cities:
     prefecture = place[0]
     cities = place[1].split("、")
 

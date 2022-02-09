@@ -1,5 +1,5 @@
 class Place:
-    def __init__(self):
+    def __init__(self) -> None:
         self.name: str
         self.lat: int
         self.lng: int
