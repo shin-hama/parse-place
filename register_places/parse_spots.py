@@ -1,24 +1,36 @@
 import dataclasses
-from itertools import chain
 
+import register_places.util as util
 from places_api import find_place
-from register_places.places_api import GoogleApiResponse
-import csv_io
+from register_places.places_api import Candidate
 
 
 @dataclasses.dataclass
 class Spot:
     prefecture: str
-    spot: str
+    name: str
     abstract: str
 
 
+@dataclasses.dataclass
+class SpotResult:
+    spot: Spot
+    place: list[Candidate]
+
+
+def get_place_info(spot: Spot) -> SpotResult:
+    place = find_place(f"{spot.prefecture} {spot.name}")
+    return SpotResult(spot=spot, place=place.candidates)
+
+
 if __name__ == "__main__":
-    outputs = csv_io.read("spots.csv")
-    print(outputs[0])
-    spots = [Spot(*output) for output in outputs]
-    print(spots[0])
+    outputs = util.read_csv("spots.csv")
 
-    # cities = chain.from_iterable([find_cities(place.cities) for place in places])
+    # Get one spot for debug
+    # spot = get_place_info(Spot(*outputs[0]))
+    # csv_io.write(dataclasses.asdict(spot), "spots.json")
 
-    # csv_io.write([dataclasses.asdict(city) for city in cities], "cities.json")
+    spots = [get_place_info(Spot(*output)) for output in outputs]
+
+    spots_dict = [dataclasses.asdict(spot) for spot in spots]
+    util.write_json(spots_dict, "spots.json")

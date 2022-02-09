@@ -48,25 +48,25 @@
     "prefecture": "北海道"
   },
   {
-    "formatted_address": "日本、〒111-8511 東京都台東区元浅草３丁目２−１",
-    "name": "滝川株式会社",
-    "place_id": "ChIJ36VjwLuOGGARVVKVzkpTlW8",
+    "formatted_address": "日本、北海道滝川市",
+    "name": "滝川市",
+    "place_id": "ChIJe66trmSXDF8RpUlfzMjn7vk",
     "geometry": {
       "location": {
-        "lat": 35.706858,
-        "lng": 139.786987
+        "lat": 43.5578133,
+        "lng": 141.9103331
       }
     },
     "prefecture": "北海道"
   },
   {
-    "formatted_address": "日本、〒135-0033 東京都江東区深川",
-    "name": "深川",
-    "place_id": "ChIJrfS7DRSJGGARr_jVChLFQq0",
+    "formatted_address": "日本、北海道深川市",
+    "name": "深川市",
+    "place_id": "ChIJ6e7j5knxDF8RMOaYZD41JlY",
     "geometry": {
       "location": {
-        "lat": 35.6763054,
-        "lng": 139.7978028
+        "lat": 43.7232882,
+        "lng": 142.0533179
       }
     },
     "prefecture": "北海道"
@@ -300,13 +300,13 @@
     "prefecture": "北海道"
   },
   {
-    "formatted_address": "日本、埼玉県日高市",
-    "name": "日高市",
-    "place_id": "ChIJjyNMEkIoGWARRmgthOct6MY",
+    "formatted_address": "日本、北海道沙流郡日高町",
+    "name": "日高町",
+    "place_id": "ChIJg2MLs3r1dF8RIVYAM82vBeI",
     "geometry": {
       "location": {
-        "lat": 35.907725,
-        "lng": 139.3390159
+        "lat": 42.48032569999999,
+        "lng": 142.0744267
       }
     },
     "prefecture": "北海道"
@@ -564,13 +564,13 @@
     "prefecture": "宮城県"
   },
   {
-    "formatted_address": "日本、〒141-0032 東京都品川区大崎",
-    "name": "大崎",
-    "place_id": "ChIJTZpvUvGKGGARgfoLCfm2U-8",
+    "formatted_address": "日本、宮城県大崎市",
+    "name": "大崎市",
+    "place_id": "ChIJPxjwvzw-iV8RIoUF4Zv4xmM",
     "geometry": {
       "location": {
-        "lat": 35.6203886,
-        "lng": 139.725607
+        "lat": 38.5770849,
+        "lng": 140.9556308
       }
     },
     "prefecture": "宮城県"
@@ -648,13 +648,13 @@
     "prefecture": "秋田県"
   },
   {
-    "formatted_address": "日本、〒187-0022 東京都小平市上水本町５丁目２０−１",
-    "name": "大仙寺",
-    "place_id": "ChIJkUVsoQDlGGAR9l1oRF5ZxlU",
+    "formatted_address": "日本、秋田県大仙市",
+    "name": "大仙市",
+    "place_id": "ChIJ9SgwTWCYj18RZzNhGFKSEgA",
     "geometry": {
       "location": {
-        "lat": 35.7123174,
-        "lng": 139.4771913
+        "lat": 39.453276,
+        "lng": 140.4754971
       }
     },
     "prefecture": "秋田県"
@@ -672,13 +672,13 @@
     "prefecture": "秋田県"
   },
   {
-    "formatted_address": "日本、新潟県南魚沼郡湯沢町",
-    "name": "湯沢町",
-    "place_id": "ChIJnbawRtUFHmARKjXtMrn9s90",
+    "formatted_address": "日本、秋田県湯沢市",
+    "name": "湯沢市",
+    "place_id": "ChIJuzNgxcXbjl8R2hcebbjzgFA",
     "geometry": {
       "location": {
-        "lat": 36.9340516,
-        "lng": 138.8173338
+        "lat": 39.1643877,
+        "lng": 140.4957009
       }
     },
     "prefecture": "秋田県"
@@ -708,13 +708,13 @@
     "prefecture": "山形県"
   },
   {
-    "formatted_address": "日本、〒174-0063 東京都板橋区前野町３丁目４６",
-    "name": "（有）新庄ブラシ製作所",
-    "place_id": "ChIJuUWtiSuTGGARAjpMkscgovg",
+    "formatted_address": "日本、〒996-0025 山形県新庄市若葉町１２−５５",
+    "name": "山形県立新庄病院",
+    "place_id": "ChIJe-n0J0itjl8RBA_3afv67tY",
     "geometry": {
       "location": {
-        "lat": 35.7718177,
-        "lng": 139.6944678
+        "lat": 38.7588442,
+        "lng": 140.3022882
       }
     },
     "prefecture": "山形県"
@@ -888,13 +888,13 @@
     "prefecture": "茨城県"
   },
   {
-    "formatted_address": "日本、〒185-8601 東京都国分寺市東恋ケ窪１丁目２８０",
-    "name": "日立製作所 中央研究所",
-    "place_id": "ChIJq0CzpWAqGWARHRc9tbd6F1A",
+    "formatted_address": "日本、茨城県日立市",
+    "name": "日立市",
+    "place_id": "ChIJ7SpvDkKBIWARlGDuVCapy1k",
     "geometry": {
       "location": {
-        "lat": 35.7032193,
-        "lng": 139.4742061
+        "lat": 36.59912730000001,
+        "lng": 140.6504712
       }
     },
     "prefecture": "茨城県"
@@ -2340,13 +2340,13 @@
     "prefecture": "島根県"
   },
   {
-    "formatted_address": "日本、東京都大田区",
-    "name": "大田区",
-    "place_id": "ChIJQ2ajwVJgGGARSQ1cUKxqwk8",
+    "formatted_address": "日本、島根県大田市",
+    "name": "大田市",
+    "place_id": "ChIJqUvqbkIGWjURfrpLGZJbP4w",
     "geometry": {
       "location": {
-        "lat": 35.561407,
-        "lng": 139.7160626
+        "lat": 35.1920811,
+        "lng": 132.4992838
       }
     },
     "prefecture": "島根県"

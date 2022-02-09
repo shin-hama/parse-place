@@ -3,7 +3,7 @@ import json
 from typing import Any
 
 
-def read(path: str) -> list[list[str]]:
+def read_csv(path: str) -> list[list[str]]:
     outputs = []
     with open(path, mode="r", encoding="utf-8") as f:
         reader = csv.reader(f)
@@ -15,7 +15,13 @@ def read(path: str) -> list[list[str]]:
     return outputs[1:]
 
 
-def write(obj: Any, path: str) -> None:
+def read_json(path: str) -> Any:
+    with open(path, mode="r", encoding="utf-8") as f:
+        result = json.load(f)
+    return result
+
+
+def write_json(obj: Any, path: str) -> None:
     with open(path, mode="w", encoding="utf-8") as f:
         json.dump(
             obj,

@@ -3,7 +3,7 @@ from itertools import chain
 
 from places_api import find_place
 from register_places.places_api import Candidate
-import csv_io
+import register_places.util as util
 
 
 @dataclasses.dataclass
@@ -29,9 +29,9 @@ def find_cities(cities: Cities) -> list[City]:
 
 
 if __name__ == "__main__":
-    outputs = csv_io.read("majorCities.csv")
+    outputs = util.read_csv("majorCities.csv")
     places = [build_place(output) for output in outputs]
 
     cities = chain.from_iterable([find_cities(place) for place in places])
 
-    csv_io.write([dataclasses.asdict(city) for city in cities], "cities.json")
+    util.write_json([dataclasses.asdict(city) for city in cities], "cities.json")
