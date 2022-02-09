@@ -2100,18 +2100,6 @@
     "prefecture": "大阪府"
   },
   {
-    "formatted_address": "日本、兵庫県神戸市",
-    "name": "神戸市",
-    "place_id": "ChIJ2YntKoF9AGAR9HD2wgZhEsc",
-    "geometry": {
-      "location": {
-        "lat": 34.6900806,
-        "lng": 135.1956311
-      }
-    },
-    "prefecture": "兵庫県"
-  },
-  {
     "formatted_address": "日本、兵庫県姫路市",
     "name": "姫路市",
     "place_id": "ChIJ0djrGS3iVDURaQtrcU2Tq9s",

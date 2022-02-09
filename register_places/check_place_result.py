@@ -3,14 +3,19 @@ from register_places.places_api import find_place
 import util
 
 
-def check_cities() -> None:
+def read_cities() -> list[City]:
     cities = util.read_json("cities.json")
 
     if isinstance(cities, list) is False:
         print("ERROR: Json format is incorrect")
-        return
+        raise Exception
 
     cities = [City(**city) for city in cities]
+    return cities
+
+
+def check_cities() -> None:
+    cities = read_cities()
 
     wrong_cities = [city for city in cities if city.prefecture not in city.formatted_address]
 
