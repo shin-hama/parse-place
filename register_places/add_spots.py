@@ -20,17 +20,22 @@ client = Client(transport=transport, fetch_schema_from_transport=True)
 
 mutation = gql(
     """
-    mutation MyMutation($objects: [cities_insert_input!]!) {
-        insert_cities(objects: $objects) {
-            returning {
-                id
-                name
-                created_at
-            }
-            affected_rows
-        }
-    }
+mutation MyMutation($objects: [spots_insert_input!] = {}) {
+  insert_spots(objects: $objects) {
+    affected_rows
+  }
+}
 """
+)
+
+q = gql(
+    """
+query MyQuery {
+  spots {
+    place_id
+  }
+}
+  """
 )
 
 
@@ -40,6 +45,8 @@ class CitySchema:
     lat: float
     lng: float
     prefecture_code: int
+    place_id: str
+    type_id: int = 1
 
 
 def parse_cities() -> list[CitySchema]:
@@ -51,6 +58,7 @@ def parse_cities() -> list[CitySchema]:
             lat=city.geometry["location"]["lat"],
             lng=city.geometry["location"]["lng"],
             prefecture_code=pref_code[city.prefecture],
+            place_id=city.place_id,
         )
         for city in cities
     ]

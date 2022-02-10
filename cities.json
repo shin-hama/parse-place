@@ -372,15 +372,15 @@
     "prefecture": "青森県"
   },
   {
-    "formatted_address": "日本、青森県弘前市",
-    "name": "弘前市",
-    "place_id": "ChIJ-w6U6pH_ml8RkSwkioTlpXU",
+    "formatted_address": "日本、青森県青森市",
     "geometry": {
       "location": {
-        "lat": 40.6030626,
-        "lng": 140.4640543
+        "lat": 40.8222197,
+        "lng": 140.7473524
       }
     },
+    "name": "青森市",
+    "place_id": "ChIJo2orHPCfm18RfqGFbZwtxv8",
     "prefecture": "青森県"
   },
   {
@@ -612,13 +612,13 @@
     "prefecture": "秋田県"
   },
   {
-    "formatted_address": "日本、秋田県大館市",
-    "name": "大館市",
-    "place_id": "ChIJ-91rvY_Gml8RVfn27WHJR-I",
+    "formatted_address": "日本、秋田県秋田市",
+    "name": "秋田市",
+    "place_id": "ChIJhV5BTa_qj18RsbqFRpEl65U",
     "geometry": {
       "location": {
-        "lat": 40.2714146,
-        "lng": 140.5641387
+        "lat": 39.7199668,
+        "lng": 140.1034795
       }
     },
     "prefecture": "秋田県"
@@ -684,15 +684,15 @@
     "prefecture": "秋田県"
   },
   {
-    "formatted_address": "日本、山形県",
-    "name": "山形県",
-    "place_id": "ChIJbeLoh3fsi18RXo9kabDE3OY",
+    "formatted_address": "日本、山形県山形市",
     "geometry": {
       "location": {
-        "lat": 38.5370564,
-        "lng": 140.1435198
+        "lat": 38.2554153,
+        "lng": 140.3396175
       }
     },
+    "name": "山形市",
+    "place_id": "ChIJUW6dSwfKi18R6zG_DU6SsqY",
     "prefecture": "山形県"
   },
   {
@@ -708,13 +708,13 @@
     "prefecture": "山形県"
   },
   {
-    "formatted_address": "日本、〒996-0025 山形県新庄市若葉町１２−５５",
-    "name": "山形県立新庄病院",
-    "place_id": "ChIJe-n0J0itjl8RBA_3afv67tY",
+    "formatted_address": "日本、山形県新庄市",
+    "name": "新庄市",
+    "place_id": "ChIJZcPU1AOzjl8R_Sg4mGTVhDQ",
     "geometry": {
       "location": {
-        "lat": 38.7588442,
-        "lng": 140.3022882
+        "lat": 38.7650067,
+        "lng": 140.3016961
       }
     },
     "prefecture": "山形県"
@@ -744,13 +744,13 @@
     "prefecture": "山形県"
   },
   {
-    "formatted_address": "日本、福島県",
-    "name": "福島県",
-    "place_id": "ChIJL9XcbYEEIGARXEbW0MGmHzQ",
+    "formatted_address": "日本、福島県福島市",
+    "name": "福島市",
+    "place_id": "ChIJ2U06KtGOil8RRuNPwQ9NBgw",
     "geometry": {
       "location": {
-        "lat": 37.3834373,
-        "lng": 140.1832516
+        "lat": 37.7607991,
+        "lng": 140.4747855
       }
     },
     "prefecture": "福島県"
@@ -1164,13 +1164,13 @@
     "prefecture": "千葉県"
   },
   {
-    "formatted_address": "日本、千葉県",
-    "name": "千葉県",
-    "place_id": "ChIJEZUb1l-bImARvnvg_9t3thw",
+    "formatted_address": "日本、千葉県千葉市",
+    "name": "千葉市",
+    "place_id": "ChIJ38TuyMGaImAR5pEdrNwLnGg",
     "geometry": {
       "location": {
-        "lat": 35.3354155,
-        "lng": 140.1832516
+        "lat": 35.6074041,
+        "lng": 140.1065366
       }
     },
     "prefecture": "千葉県"
@@ -1188,13 +1188,13 @@
     "prefecture": "千葉県"
   },
   {
-    "formatted_address": "日本、〒111-0053 東京都台東区浅草橋",
-    "name": "浅草橋",
-    "place_id": "ChIJy9u3lbGOGGAR64cimvJDwnE",
+    "formatted_address": "日本、〒111-0032 東京都台東区浅草",
+    "name": "浅草",
+    "place_id": "ChIJM1N_BMKOGGARZ0DHgTj9hHw",
     "geometry": {
       "location": {
-        "lat": 35.6990555,
-        "lng": 139.7843792
+        "lat": 35.7185858,
+        "lng": 139.7958849
       }
     },
     "prefecture": "東京都"
@@ -1392,13 +1392,13 @@
     "prefecture": "新潟県"
   },
   {
-    "formatted_address": "日本、新潟県",
-    "name": "新潟県",
-    "place_id": "ChIJATtK2PaFjF8RSPPdfITZi7Q",
+    "formatted_address": "日本、新潟県新潟市",
+    "name": "新潟市",
+    "place_id": "ChIJ98DHVcLF9F8RDSOQycubUPE",
     "geometry": {
       "location": {
-        "lat": 37.5178386,
-        "lng": 138.9269794
+        "lat": 37.9161244,
+        "lng": 139.0363708
       }
     },
     "prefecture": "新潟県"
@@ -1488,13 +1488,13 @@
     "prefecture": "富山県"
   },
   {
-    "formatted_address": "日本、富山県",
-    "name": "富山県",
-    "place_id": "ChIJSca2CRSS918Rc1GBWMBBk3w",
+    "formatted_address": "日本、富山県富山市",
+    "name": "富山市",
+    "place_id": "ChIJ9WoXGAny918R4x0feZe_Wm0",
     "geometry": {
       "location": {
-        "lat": 36.6958266,
-        "lng": 137.2137071
+        "lat": 36.6958223,
+        "lng": 137.2137211
       }
     },
     "prefecture": "富山県"
@@ -1572,13 +1572,13 @@
     "prefecture": "石川県"
   },
   {
-    "formatted_address": "日本、福井県",
-    "name": "福井県",
-    "place_id": "ChIJEb6scKhV_18RYA7nHjFfIQo",
+    "formatted_address": "日本、福井県福井市",
+    "name": "福井市",
+    "place_id": "ChIJTyt0O6---F8RvbsNWHYUG6Q",
     "geometry": {
       "location": {
-        "lat": 35.896227,
-        "lng": 136.2111579
+        "lat": 36.0641386,
+        "lng": 136.219623
       }
     },
     "prefecture": "福井県"
@@ -1716,13 +1716,13 @@
     "prefecture": "長野県"
   },
   {
-    "formatted_address": "日本、長野県",
-    "name": "長野県",
-    "place_id": "ChIJa4zJGCMBHWARlAu_BE8rXAI",
+    "formatted_address": "日本、長野県長野市",
+    "name": "長野市",
+    "place_id": "ChIJmUQ05l2AHWARyJIoB3SpKPE",
     "geometry": {
       "location": {
-        "lat": 36.1543941,
-        "lng": 137.9218204
+        "lat": 36.6485258,
+        "lng": 138.1950371
       }
     },
     "prefecture": "長野県"
@@ -1740,13 +1740,13 @@
     "prefecture": "長野県"
   },
   {
-    "formatted_address": "日本、岐阜県",
-    "name": "岐阜県",
-    "place_id": "ChIJi8OICvLxAmARZ9bM7q0UJ68",
+    "formatted_address": "日本、岐阜県岐阜市",
+    "name": "岐阜市",
+    "place_id": "ChIJfx-w3NOrA2ARTGQAbTv8-5Q",
     "geometry": {
       "location": {
-        "lat": 35.7437491,
-        "lng": 136.9805103
+        "lat": 35.42342259999999,
+        "lng": 136.7606217
       }
     },
     "prefecture": "岐阜県"
@@ -1800,13 +1800,13 @@
     "prefecture": "岐阜県"
   },
   {
-    "formatted_address": "日本、静岡県",
-    "name": "静岡県",
-    "place_id": "ChIJL8OwjM62G2ARVRZv3-tm-vw",
+    "formatted_address": "日本、静岡県静岡市",
+    "name": "静岡市",
+    "place_id": "ChIJb4VYeiC_G2ARAYGHqCZ2x60",
     "geometry": {
       "location": {
-        "lat": 35.0929397,
-        "lng": 138.3190276
+        "lat": 34.9755668,
+        "lng": 138.3826773
       }
     },
     "prefecture": "静岡県"
@@ -2004,37 +2004,25 @@
     "prefecture": "京都府"
   },
   {
-    "formatted_address": "日本、〒600-8357 京都府京都市下京区柿本町５７９",
-    "name": "五条堀川ビル",
-    "place_id": "ChIJhdLuCiAGAWARC_c97ldaRxk",
+    "formatted_address": "日本、京都府京都市 五条通り",
+    "name": "五条通り",
+    "place_id": "ChIJGfElmiMGAWARr6XHGiKoJ10",
     "geometry": {
       "location": {
-        "lat": 34.9958529,
-        "lng": 135.7518842
+        "lat": 34.9961026,
+        "lng": 135.7440133
       }
     },
     "prefecture": "京都府"
   },
   {
-    "formatted_address": "日本、大阪府",
-    "name": "大阪府",
-    "place_id": "ChIJ13DMKmvoAGARbVkfgUj_maM",
+    "formatted_address": "日本、〒530-0001 大阪府大阪市北区梅田",
+    "name": "梅田",
+    "place_id": "ChIJ7b9MGI3mAGARufc_HWvT3M0",
     "geometry": {
       "location": {
-        "lat": 34.6413315,
-        "lng": 135.5629394
-      }
-    },
-    "prefecture": "大阪府"
-  },
-  {
-    "formatted_address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１",
-    "name": "梅田新道",
-    "place_id": "ChIJhZCAW-zmAGAREQych5z9UWw",
-    "geometry": {
-      "location": {
-        "lat": 34.69885,
-        "lng": 135.50015
+        "lat": 34.7005588,
+        "lng": 135.4957339
       }
     },
     "prefecture": "大阪府"
@@ -2047,42 +2035,6 @@
       "location": {
         "lat": 34.6657531,
         "lng": 135.5010362
-      }
-    },
-    "prefecture": "大阪府"
-  },
-  {
-    "formatted_address": "日本、〒552-0021 大阪府大阪市港区築港３丁目５−９",
-    "name": "大阪港駅",
-    "place_id": "ChIJ4e_0coroAGARRJIjAJoLGCM",
-    "geometry": {
-      "location": {
-        "lat": 34.653927,
-        "lng": 135.4344189
-      }
-    },
-    "prefecture": "大阪府"
-  },
-  {
-    "formatted_address": "日本、〒559-0034 大阪府大阪市住之江区南港北",
-    "name": "南港北",
-    "place_id": "ChIJT7UwK1PoAGARbWc8UdK0gEA",
-    "geometry": {
-      "location": {
-        "lat": 34.6398713,
-        "lng": 135.4098039
-      }
-    },
-    "prefecture": "大阪府"
-  },
-  {
-    "formatted_address": "日本、〒537-0001 大阪府大阪市東成区深江北２丁目１",
-    "name": "深江橋駅",
-    "place_id": "ChIJ-3yKDITgAGARXiiKPVg6Ttg",
-    "geometry": {
-      "location": {
-        "lat": 34.679015,
-        "lng": 135.5580041
       }
     },
     "prefecture": "大阪府"
@@ -2131,18 +2083,6 @@
       "location": {
         "lat": 34.34288830000001,
         "lng": 134.895295
-      }
-    },
-    "prefecture": "兵庫県"
-  },
-  {
-    "formatted_address": "日本、兵庫県神戸市中央区三宮町３丁目９ 三宮",
-    "name": "三宮",
-    "place_id": "ChIJs4NoJ_2OAGARtqDlkpcTrIs",
-    "geometry": {
-      "location": {
-        "lat": 34.6931949,
-        "lng": 135.194472
       }
     },
     "prefecture": "兵庫県"
@@ -2232,13 +2172,13 @@
     "prefecture": "奈良県"
   },
   {
-    "formatted_address": "日本、和歌山県",
-    "name": "和歌山県",
-    "place_id": "ChIJ1wKhtPIEB2ARnU_gb_EzSNQ",
+    "formatted_address": "日本、和歌山県和歌山市",
+    "name": "和歌山市",
+    "place_id": "ChIJeX68GYWyAGARynFP_dR2zo8",
     "geometry": {
       "location": {
-        "lat": 33.9480914,
-        "lng": 135.3745358
+        "lat": 34.2303678,
+        "lng": 135.1707405
       }
     },
     "prefecture": "和歌山県"
@@ -2292,13 +2232,13 @@
     "prefecture": "鳥取県"
   },
   {
-    "formatted_address": "日本、鳥取県",
-    "name": "鳥取県",
-    "place_id": "ChIJB0-MsELXVTUR7pLgQAxBLzs",
+    "formatted_address": "日本、鳥取県鳥取市",
+    "name": "鳥取市",
+    "place_id": "ChIJiW-EoMmWVTURVlTlKYZjRzg",
     "geometry": {
       "location": {
-        "lat": 35.3573161,
-        "lng": 133.4066618
+        "lat": 35.5011082,
+        "lng": 134.2351011
       }
     },
     "prefecture": "鳥取県"
@@ -2388,25 +2328,25 @@
     "prefecture": "岡山県"
   },
   {
-    "formatted_address": "日本、岡山県",
-    "name": "岡山県",
-    "place_id": "ChIJh5W24jhmVDURU20vGB0GIdI",
+    "formatted_address": "日本、岡山県岡山市",
+    "name": "岡山市",
+    "place_id": "ChIJT6D7L3EFVDURZldpYCaAwxA",
     "geometry": {
       "location": {
-        "lat": 34.8963407,
-        "lng": 133.6375314
+        "lat": 34.6555312,
+        "lng": 133.919795
       }
     },
     "prefecture": "岡山県"
   },
   {
-    "formatted_address": "日本、広島県",
-    "name": "広島県",
-    "place_id": "ChIJa_O3GdGJUDURv90VFtIkjqU",
+    "formatted_address": "日本、広島県広島市",
+    "name": "広島市",
+    "place_id": "ChIJu0_z7giZWjURcvfBz1DO5Ac",
     "geometry": {
       "location": {
-        "lat": 34.8823408,
-        "lng": 133.0194897
+        "lat": 34.3852894,
+        "lng": 132.4553055
       }
     },
     "prefecture": "広島県"
@@ -2436,13 +2376,13 @@
     "prefecture": "広島県"
   },
   {
-    "formatted_address": "日本、山口県",
-    "name": "山口県",
-    "place_id": "ChIJ_Y9adhnHRDURcOJUU8K8DEk",
+    "formatted_address": "日本、山口県山口市",
+    "name": "山口市",
+    "place_id": "ChIJdf2eTMWVRDUR960yDjJWMSY",
     "geometry": {
       "location": {
-        "lat": 34.2796769,
-        "lng": 131.5212742
+        "lat": 34.1782945,
+        "lng": 131.4738432
       }
     },
     "prefecture": "山口県"
@@ -2508,13 +2448,13 @@
     "prefecture": "山口県"
   },
   {
-    "formatted_address": "日本、徳島県",
-    "name": "徳島県",
-    "place_id": "ChIJszfXrltNUjURDDHPZPlj3f0",
+    "formatted_address": "日本、徳島県徳島市",
+    "name": "徳島市",
+    "place_id": "ChIJU-wn2gINUzUR94WNIAhofbU",
     "geometry": {
       "location": {
-        "lat": 33.9419655,
-        "lng": 134.3236557
+        "lat": 34.0703652,
+        "lng": 134.5549537
       }
     },
     "prefecture": "徳島県"
@@ -2616,13 +2556,13 @@
     "prefecture": "愛媛県"
   },
   {
-    "formatted_address": "日本、高知県",
-    "name": "高知県",
-    "place_id": "ChIJa2Hq0TSpSDURow2-nqQtVKA",
+    "formatted_address": "日本、高知県高知市",
+    "name": "高知市",
+    "place_id": "ChIJ100IIjMfTjURKmTeP0NaFy8",
     "geometry": {
       "location": {
-        "lat": 33.5481246,
-        "lng": 133.2521507
+        "lat": 33.5588821,
+        "lng": 133.5312383
       }
     },
     "prefecture": "高知県"
@@ -2772,13 +2712,13 @@
     "prefecture": "佐賀県"
   },
   {
-    "formatted_address": "日本、佐賀県",
-    "name": "佐賀県",
-    "place_id": "ChIJVVXx4qHSQTUR2vEeH2zUCzA",
+    "formatted_address": "日本、佐賀県佐賀市",
+    "name": "佐賀市",
+    "place_id": "ChIJ6_E0HvvIQTUR0EPzUPyikNc",
     "geometry": {
       "location": {
-        "lat": 33.3078371,
-        "lng": 130.2271243
+        "lat": 33.2631179,
+        "lng": 130.3009057
       }
     },
     "prefecture": "佐賀県"
@@ -2844,13 +2784,13 @@
     "prefecture": "長崎県"
   },
   {
-    "formatted_address": "日本、長崎県",
-    "name": "長崎県",
-    "place_id": "ChIJC46vsRChaTURlUoIqR4qlSQ",
+    "formatted_address": "日本、長崎県長崎市",
+    "name": "長崎市",
+    "place_id": "ChIJZ9oYhFRMFTURk8wyyu2m94s",
     "geometry": {
       "location": {
-        "lat": 33.2488525,
-        "lng": 129.6930912
+        "lat": 32.7503334,
+        "lng": 129.8778888
       }
     },
     "prefecture": "長崎県"
@@ -2916,13 +2856,13 @@
     "prefecture": "熊本県"
   },
   {
-    "formatted_address": "日本、熊本県",
-    "name": "熊本県",
-    "place_id": "ChIJpzy0q613QDUR8fFMMDKVF_I",
+    "formatted_address": "日本、熊本県熊本市",
+    "name": "熊本市",
+    "place_id": "ChIJTxvxrBT0QDURMVzPm9HOURo",
     "geometry": {
       "location": {
-        "lat": 32.8594427,
-        "lng": 130.7969149
+        "lat": 32.8032164,
+        "lng": 130.7079369
       }
     },
     "prefecture": "熊本県"
@@ -2976,13 +2916,13 @@
     "prefecture": "大分県"
   },
   {
-    "formatted_address": "日本、大分県",
-    "name": "大分県",
-    "place_id": "ChIJk0fY45VcRDUR4r42cPK3Fz8",
+    "formatted_address": "日本、大分県大分市",
+    "name": "大分市",
+    "place_id": "ChIJi7xfnQacRjUR2l4jZyAVr4U",
     "geometry": {
       "location": {
-        "lat": 33.1589299,
-        "lng": 131.3611121
+        "lat": 33.2396084,
+        "lng": 131.6095148
       }
     },
     "prefecture": "大分県"
@@ -3060,13 +3000,13 @@
     "prefecture": "宮崎県"
   },
   {
-    "formatted_address": "日本、宮崎県",
-    "name": "宮崎県",
-    "place_id": "ChIJYfx_FietODURKhlreMr3-Cg",
+    "formatted_address": "日本、宮崎県宮崎市",
+    "name": "宮崎市",
+    "place_id": "ChIJe6Jox_a1ODURfe54GDviTA0",
     "geometry": {
       "location": {
-        "lat": 32.6036022,
-        "lng": 131.441251
+        "lat": 31.9077285,
+        "lng": 131.4202196
       }
     },
     "prefecture": "宮崎県"
@@ -3120,13 +3060,13 @@
     "prefecture": "鹿児島県"
   },
   {
-    "formatted_address": "日本、鹿児島県",
-    "name": "鹿児島県",
-    "place_id": "ChIJA4AW0cJbGDURcNZa6PLRr40",
+    "formatted_address": "日本、鹿児島県鹿児島市",
+    "name": "鹿児島市",
+    "place_id": "ChIJPcXjAFJhPjURhVhcXa393Jo",
     "geometry": {
       "location": {
-        "lat": 31.3911958,
-        "lng": 130.8778586
+        "lat": 31.5968539,
+        "lng": 130.5571392
       }
     },
     "prefecture": "鹿児島県"
@@ -3144,13 +3084,13 @@
     "prefecture": "沖縄県"
   },
   {
-    "formatted_address": "日本、沖縄県",
-    "name": "沖縄県",
-    "place_id": "ChIJ51ur7mJw9TQR79H9hnJhuzU",
+    "formatted_address": "日本、沖縄県沖縄市",
+    "name": "沖縄市",
+    "place_id": "ChIJ11onrB4O5TQRKBXBjYNxxTM",
     "geometry": {
       "location": {
-        "lat": 26.1201911,
-        "lng": 127.7025012
+        "lat": 26.3343533,
+        "lng": 127.8056058
       }
     },
     "prefecture": "沖縄県"
