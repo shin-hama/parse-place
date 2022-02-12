@@ -1,36 +1,37 @@
-import dataclasses
-
-import register_places.util as util
-from places_api import find_place
+from get_spots import SpotResult
+from itertools import chain
 from register_places.places_api import Candidate
+from graphql_query import insert_types
+import util
 
 
-@dataclasses.dataclass
-class Spot:
-    prefecture: str
-    name: str
-    abstract: str
+def read_spots() -> list[SpotResult]:
+    spots = util.read_json("./spots.json")
+
+    if isinstance(spots, list) is False:
+        print("ERROR: Json format is incorrect")
+        raise Exception
+
+    spots = [SpotResult(spot=spot["spot"], place=[Candidate(**place) for place in spot["place"]]) for spot in spots]
+    return spots
 
 
-@dataclasses.dataclass
-class SpotResult:
-    spot: Spot
-    place: list[Candidate]
+def extract_place_types(spot: SpotResult) -> list[str]:
+    return list(chain.from_iterable([place.types for place in spot.place]))
 
 
-def get_place_info(spot: Spot) -> SpotResult:
-    place = find_place(f"{spot.prefecture} {spot.name}")
-    return SpotResult(spot=spot, place=place.candidates)
+def get_all_place_types() -> list[str]:
+    spots = read_spots()
+
+    types = list(chain.from_iterable([extract_place_types(spot) for spot in spots]))
+
+    return list(set(types))
+
+
+def add_types():
+    types = get_all_place_types()
+    insert_types(types)
 
 
 if __name__ == "__main__":
-    outputs = util.read_csv("spots.csv")
-
-    # Get one spot for debug
-    # spot = get_place_info(Spot(*outputs[0]))
-    # csv_io.write(dataclasses.asdict(spot), "spots.json")
-
-    spots = [get_place_info(Spot(*output)) for output in outputs]
-
-    spots_dict = [dataclasses.asdict(spot) for spot in spots]
-    util.write_json(spots_dict, "spots.json")
+    pass

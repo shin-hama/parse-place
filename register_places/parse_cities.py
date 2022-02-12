@@ -14,7 +14,7 @@ class Cities:
 
 @dataclasses.dataclass
 class City(Candidate):
-    prefecture: str
+    prefecture: str = ""
 
 
 def build_place(place: list[str]) -> Cities:

@@ -55,8 +55,8 @@ def parse_cities() -> list[CitySchema]:
     schemas = [
         CitySchema(
             name=city.name,
-            lat=city.geometry["location"]["lat"],
-            lng=city.geometry["location"]["lng"],
+            lat=city.geometry.location.lat,
+            lng=city.geometry.location.lng,
             prefecture_code=pref_code[city.prefecture],
             place_id=city.place_id,
         )
