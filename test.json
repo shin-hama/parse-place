@@ -1,0 +1,98 @@
+// nature: 1
+[
+  { "name": "campground", "id": 48, "len": 7 },
+  { "name": "lodging", "id": 4, "len": 52 },
+  { "name": "park", "id": 16, "len": 191 },
+  { "name": "natural_feature", "id": 32, "len": 68 },
+]
+
+// 寺社仏閣: 2
+[
+  { "name": "premise", "id": 42, "len": 16 },
+  { "name": "place_of_worship", "id": 7, "len": 46 },
+  { "name": "church", "id": 58, "len": 3 },
+]
+
+//　その他:3
+[
+  { "name": "cemetery", "id": 43, "len": 3 },
+  { "name": "university", "id": 23, "len": 2 },
+  { "name": "local_government_office", "id": 49, "len": 4 },
+  { "name": "health", "id": 13, "len": 1 },
+  { "name": "beauty_salon", "id": 10, "len": 1 },
+  { "name": "finance", "id": 45, "len": 2 },
+  { "name": "post_office", "id": 26, "len": 2 },
+  { "name": "tourist_attraction", "id": 56, "len": 625 },
+  { "name": "point_of_interest", "id": 6, "len": 937 },
+]
+
+// レジャー:4
+[
+  { "name": "spa", "id": 39, "len": 4 },
+  { "name": "lodging", "id": 4, "len": 52 },
+  { "name": "amusement_park", "id": 62, "len": 93 },
+  { "name": "stadium", "id": 59, "len": 6 },
+  { "name": "shopping_mall", "id": 9, "len": 15 },
+]
+
+// city:5
+[
+  { "name": "city", "id": 1, "len": 249 },
+  { "name": "sublocality", "id": 27, "len": 46 },
+  { "name": "political", "id": 8, "len": 62 },
+
+// ミュージアム:6
+[
+  { "name": "art_gallery", "id": 31, "len": 2 },
+  { "name": "travel_agency", "id": 55, "len": 10 },
+  { "name": "aquarium", "id": 21, "len": 15 },
+  { "name": "zoo", "id": 15, "len": 42 },
+  { "name": "museum", "id": 37, "len": 79 },
+]
+
+// 駅:7
+[
+  { "name": "train_station", "id": 12, "len": 9 },
+  { "name": "transit_station", "id": 19, "len": 12 },
+  { "name": "subway_station", "id": 30, "len": 1 },
+  { "name": "airport", "id": 63, "len": 1 },
+]
+
+
+// 飲食:8
+[
+  { "name": "bakery", "id": 57, "len": 1 },
+  { "name": "cafe", "id": 34, "len": 8 },
+  { "name": "food", "id": 40, "len": 47 },
+  { "name": "restaurant", "id": 24, "len": 31 },
+  { "name": "meal_takeaway", "id": 20, "len": 1 },
+  { "name": "liquor_store", "id": 22, "len": 1 },
+]
+
+// shop: 9
+[
+  { "name": "furniture_store", "id": 61, "len": 1 },
+  { "name": "liquor_store", "id": 22, "len": 1 },
+  { "name": "clothing_store", "id": 17, "len": 1 },
+  { "name": "store", "id": 60, "len": 35 },
+  { "name": "home_goods_store", "id": 36, "len": 2 },
+  { "name": "shopping_mall", "id": 9, "len": 15 },
+]
+
+[
+  { "name": "parking", "id": 38, "len": 1 },
+  { "name": "city_hall", "id": 3, "len": 1 },
+  { "name": "sublocality_level_2", "id": 41, "len": 44 },
+  { "name": "atm", "id": 54, "len": 1 },
+  { "name": "florist", "id": 53, "len": 1 },
+  { "name": "grocery_or_supermarket", "id": 14, "len": 1 },
+  { "name": "colloquial_area", "id": 51, "len": 2 },
+  { "name": "locality", "id": 50, "len": 7 },
+  { "name": "sublocality_level_3", "id": 18, "len": 2 },
+  { "name": "intersection", "id": 44, "len": 1 },
+  { "name": "administrative_area_level_1", "id": 2, "len": 1 },
+  { "name": "neighborhood", "id": 5, "len": 6 },
+  { "name": "route", "id": 25, "len": 16 },
+  { "name": "point_of_interest", "id": 6, "len": 937 },
+  { "name": "establishment", "id": 47, "len": 1001 }
+]

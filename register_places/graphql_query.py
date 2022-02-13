@@ -1,13 +1,13 @@
 from dataclasses import asdict, dataclass
+from typing import Literal
 import os
 from typing import Any
+
 from gql import gql, Client
 from gql.transport.aiohttp import AIOHTTPTransport
 from dotenv import load_dotenv
 from graphql import DocumentNode
 
-from constants.prefectures_code import pref_code
-from check_place_result import read_cities
 
 load_dotenv(verbose=True)
 
@@ -18,13 +18,13 @@ transport = AIOHTTPTransport(
 )
 
 # Create a GraphQL client using the defined transport
-client = Client(transport=transport, fetch_schema_from_transport=True)
+client = Client(transport=transport, fetch_schema_from_transport=True, execute_timeout=None)
 
 
-def exec_query(q: DocumentNode, param: dict[str, Any] = None) -> None:
+def exec_query(q: DocumentNode, param: dict[str, Any] = None) -> dict[str, Any]:
     # Execute the query on the transport
     result = client.execute(q, variable_values=param)
-    print(result)
+    return result
 
 
 def insert_types(types: list[str]) -> None:
@@ -46,44 +46,35 @@ def insert_types(types: list[str]) -> None:
     exec_query(mutation, param)
 
 
-def add_spots() -> None:
+@dataclass
+class SpotSchema:
+    name: str
+    lat: float
+    lng: float
+    prefecture_code: int
+    place_id: str
+    spots_types: dict[
+        Literal["data"],
+        list[
+            dict[
+                Literal["type"],
+                dict[Literal["data", "on_conflict"], dict[Literal["name", "constraint", "update_columns"], str]],
+            ]
+        ],
+    ]
 
+
+def insert_spots(schemas: list[SpotSchema]) -> None:
     mutation = gql(
         """
-    mutation MyMutation($objects: [spots_insert_input!] = {}) {
-    insert_spots(objects: $objects) {
-        affected_rows
-    }
-    }
+        mutation MyMutation($objects: [spots_insert_input!]!) {
+            insert_spots(objects: $objects) {
+                affected_rows
+            }
+        }
     """
     )
 
-    @dataclass
-    class CitySchema:
-        name: str
-        lat: float
-        lng: float
-        prefecture_code: int
-        place_id: str
-        type_id: int = 1
-
-    def parse_cities() -> list[CitySchema]:
-        cities = read_cities()
-
-        schemas = [
-            CitySchema(
-                name=city.name,
-                lat=city.geometry.location.lat,
-                lng=city.geometry.location.lng,
-                prefecture_code=pref_code[city.prefecture],
-                place_id=city.place_id,
-            )
-            for city in cities
-        ]
-
-        return schemas
-
-    schemas = parse_cities()
     test = [asdict(schema) for schema in schemas]
     param = {"objects": test}
 
@@ -105,3 +96,31 @@ def add_city_type() -> None:
     )
     param = {"objects": [{"spot_id": t["place_id"], "type_id": 1} for t in test]}
     exec_query(m, param)
+
+
+def get_types():
+    m = gql(
+        """
+        query MyQuery {
+            types {
+                name
+                id
+                spots_types {
+                    spot_id
+                }
+            }
+        }
+        """
+    )
+    result = exec_query(m)
+    print(result["types"][0])
+
+    formatted = [{"name": r["name"], "id": r["id"], "len": len(r["spots_types"])} for r in result["types"]]
+    print(formatted[0])
+    import json
+
+    with open("test.json", mode="w", encoding="utf-8") as f:
+        json.dump(formatted, f)
+
+
+get_types()

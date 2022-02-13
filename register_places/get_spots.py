@@ -20,7 +20,7 @@ class SpotResult:
 
 def get_place_info(spot: Spot) -> SpotResult:
     place = find_place(f"{spot.prefecture} {spot.name}")
-    return SpotResult(spot=spot, place=place.candidates)
+    return SpotResult(spot=spot, place=place.candidates[0])
 
 
 if __name__ == "__main__":
