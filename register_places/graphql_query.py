@@ -8,6 +8,8 @@ from gql.transport.aiohttp import AIOHTTPTransport
 from dotenv import load_dotenv
 from graphql import DocumentNode
 
+from util import read_json
+
 
 load_dotenv(verbose=True)
 
@@ -121,6 +123,24 @@ def get_types():
 
     with open("test.json", mode="w", encoding="utf-8") as f:
         json.dump(formatted, f)
+
+
+def update_prefecture_place_id():
+    m = gql(
+        """
+        mutation MyMutation($name: String!, $place_id: String!) {
+            update_prefectures(where: {name: {_eq: $name}}, _set: {place_id: $place_id}) {
+                affected_rows
+            }
+        }
+        """
+    )
+
+    prefectures = read_json("prefectures.json")
+    for p in prefectures:
+        param = {"name": p["candidates"][0]["name"], "place_id": p["candidates"][0]["place_id"]}
+        print(param)
+        exec_query(m, param)
 
 
 get_types()

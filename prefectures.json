@@ -1,0 +1,1365 @@
+[
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、北海道",
+        "name": "北海道",
+        "place_id": "ChIJi4hsnyBZn18RjwPOT1bDPBw",
+        "geometry": {
+          "location": {
+            "lat": 43.2203266,
+            "lng": 142.8634737
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 45.5265181,
+              "lng": 145.817624
+            },
+            "southwest": {
+              "lat": 41.3516002,
+              "lng": 139.3340799
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、青森県",
+        "name": "青森県",
+        "place_id": "ChIJR60vIL2bm18Ro_kApp-uBak",
+        "geometry": {
+          "location": {
+            "lat": 40.7657077,
+            "lng": 140.9175879
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 41.5561334,
+              "lng": 141.6830256
+            },
+            "southwest": {
+              "lat": 40.2177625,
+              "lng": 139.4974002
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、岩手県",
+        "name": "岩手県",
+        "place_id": "ChIJIzoJ7dCQhV8RbEB_6H6BLGY",
+        "geometry": {
+          "location": {
+            "lat": 39.5832989,
+            "lng": 141.2534574
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 40.4502736,
+              "lng": 142.0723993
+            },
+            "southwest": {
+              "lat": 38.74760759999999,
+              "lng": 140.653122
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、宮城県",
+        "name": "宮城県",
+        "place_id": "ChIJcdzg-92SiF8RraQHUTi5b84",
+        "geometry": {
+          "location": {
+            "lat": 38.630612,
+            "lng": 141.1193048
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 39.0027714,
+              "lng": 141.6773827
+            },
+            "southwest": {
+              "lat": 37.773273,
+              "lng": 140.2749451
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、秋田県",
+        "name": "秋田県",
+        "place_id": "ChIJv_Eu0V7rj18REhxcYOz7fZo",
+        "geometry": {
+          "location": {
+            "lat": 40.1376293,
+            "lng": 140.334341
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 40.51114099999999,
+              "lng": 140.9953193
+            },
+            "southwest": {
+              "lat": 38.8730579,
+              "lng": 139.6917816
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、山形県",
+        "name": "山形県",
+        "place_id": "ChIJbeLoh3fsi18RXo9kabDE3OY",
+        "geometry": {
+          "location": {
+            "lat": 38.5370564,
+            "lng": 140.1435198
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 39.2155237,
+              "lng": 140.6464904
+            },
+            "southwest": {
+              "lat": 37.73387049999999,
+              "lng": 139.5199421
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、福島県",
+        "name": "福島県",
+        "place_id": "ChIJL9XcbYEEIGARXEbW0MGmHzQ",
+        "geometry": {
+          "location": {
+            "lat": 37.3834373,
+            "lng": 140.1832516
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 37.9764985,
+              "lng": 141.0435502
+            },
+            "southwest": {
+              "lat": 36.7913672,
+              "lng": 139.1647372
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、茨城県",
+        "name": "茨城県",
+        "place_id": "ChIJF8In71sYImARgMV4m4P7Spo",
+        "geometry": {
+          "location": {
+            "lat": 36.2193571,
+            "lng": 140.1832516
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 36.9454393,
+              "lng": 140.8490005
+            },
+            "southwest": {
+              "lat": 35.73936339999999,
+              "lng": 139.6869382
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、栃木県",
+        "name": "栃木県",
+        "place_id": "ChIJ7RWXa1VwH2ARB9AguZ5FZW0",
+        "geometry": {
+          "location": {
+            "lat": 36.6714739,
+            "lng": 139.8547266
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 37.1550551,
+              "lng": 140.2921256
+            },
+            "southwest": {
+              "lat": 36.1997662,
+              "lng": 139.3265759
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、群馬県",
+        "name": "群馬県",
+        "place_id": "ChIJWa42yIVgHmARknJxiWg1mdc",
+        "geometry": {
+          "location": {
+            "lat": 36.5605388,
+            "lng": 138.8799972
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 37.0587112,
+              "lng": 139.6699739
+            },
+            "southwest": {
+              "lat": 35.9853419,
+              "lng": 138.3968419
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、埼玉県",
+        "name": "埼玉県",
+        "place_id": "ChIJ6QF7R40qGWARbFKAqmcS2f4",
+        "geometry": {
+          "location": {
+            "lat": 35.9962513,
+            "lng": 139.4466005
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 36.2835334,
+              "lng": 139.9001115
+            },
+            "southwest": {
+              "lat": 35.7535256,
+              "lng": 138.7112215
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、千葉県",
+        "name": "千葉県",
+        "place_id": "ChIJEZUb1l-bImARvnvg_9t3thw",
+        "geometry": {
+          "location": {
+            "lat": 35.3354155,
+            "lng": 140.1832516
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 36.1040901,
+              "lng": 140.8789636
+            },
+            "southwest": {
+              "lat": 34.8979627,
+              "lng": 139.7393896
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、東京都",
+        "name": "東京都",
+        "place_id": "ChIJ51cu8IcbXWARiRtXIothAS4",
+        "geometry": {
+          "location": {
+            "lat": 35.6761919,
+            "lng": 139.6503106
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 36.4408483,
+              "lng": 141.2405144
+            },
+            "southwest": {
+              "lat": 34.5776326,
+              "lng": 138.2991098
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、神奈川県",
+        "name": "神奈川県",
+        "place_id": "ChIJq9Rn-8dUGGARViMnQtCc9xE",
+        "geometry": {
+          "location": {
+            "lat": 35.4913535,
+            "lng": 139.284143
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 35.6728718,
+              "lng": 139.8357927
+            },
+            "southwest": {
+              "lat": 35.1286216,
+              "lng": 138.9157563
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、新潟県",
+        "name": "新潟県",
+        "place_id": "ChIJATtK2PaFjF8RSPPdfITZi7Q",
+        "geometry": {
+          "location": {
+            "lat": 37.5178386,
+            "lng": 138.9269794
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 38.5535953,
+              "lng": 139.899764
+            },
+            "southwest": {
+              "lat": 36.7365606,
+              "lng": 137.6350733
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、富山県",
+        "name": "富山県",
+        "place_id": "ChIJSca2CRSS918Rc1GBWMBBk3w",
+        "geometry": {
+          "location": {
+            "lat": 36.6958266,
+            "lng": 137.2137071
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 36.9826438,
+              "lng": 137.7633695
+            },
+            "southwest": {
+              "lat": 36.2743732,
+              "lng": 136.7683233
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、石川県",
+        "name": "石川県",
+        "place_id": "ChIJ7xq8wV5-8V8RtJoYjRM81Es",
+        "geometry": {
+          "location": {
+            "lat": 36.3260317,
+            "lng": 136.5289653
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 37.8579593,
+              "lng": 137.3652437
+            },
+            "southwest": {
+              "lat": 36.0670758,
+              "lng": 136.2436424
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、福井県",
+        "name": "福井県",
+        "place_id": "ChIJEb6scKhV_18RYA7nHjFfIQo",
+        "geometry": {
+          "location": {
+            "lat": 35.896227,
+            "lng": 136.2111579
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 36.2956473,
+              "lng": 136.8323101
+            },
+            "southwest": {
+              "lat": 35.3436267,
+              "lng": 135.4493143
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、山梨県",
+        "name": "山梨県",
+        "place_id": "ChIJIe5Ck3LjG2ARqm6fj-ToBHM",
+        "geometry": {
+          "location": {
+            "lat": 35.6635113,
+            "lng": 138.6388879
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 35.9717007,
+              "lng": 139.1343406
+            },
+            "southwest": {
+              "lat": 35.1684169,
+              "lng": 138.1800954
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、長野県",
+        "name": "長野県",
+        "place_id": "ChIJa4zJGCMBHWARlAu_BE8rXAI",
+        "geometry": {
+          "location": {
+            "lat": 36.1543941,
+            "lng": 137.9218204
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 37.030494,
+              "lng": 138.739236
+            },
+            "southwest": {
+              "lat": 35.1983599,
+              "lng": 137.3243378
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、岐阜県",
+        "name": "岐阜県",
+        "place_id": "ChIJi8OICvLxAmARZ9bM7q0UJ68",
+        "geometry": {
+          "location": {
+            "lat": 35.7437491,
+            "lng": 136.9805103
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 36.465034,
+              "lng": 137.6530256
+            },
+            "southwest": {
+              "lat": 35.1337004,
+              "lng": 136.276178
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、静岡県",
+        "name": "静岡県",
+        "place_id": "ChIJL8OwjM62G2ARVRZv3-tm-vw",
+        "geometry": {
+          "location": {
+            "lat": 35.0929397,
+            "lng": 138.3190276
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 35.6461065,
+              "lng": 139.1765433
+            },
+            "southwest": {
+              "lat": 34.5730752,
+              "lng": 137.4742223
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、愛知県",
+        "name": "愛知県",
+        "place_id": "ChIJ5zKTSdW6BGARp0EVGF2mX-s",
+        "geometry": {
+          "location": {
+            "lat": 35.0182505,
+            "lng": 137.2923893
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 35.4248194,
+              "lng": 137.8378879
+            },
+            "southwest": {
+              "lat": 34.573497,
+              "lng": 136.6710084
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、三重県",
+        "name": "三重県",
+        "place_id": "ChIJY0FHSvU9BGARKIc4ff5ynkI",
+        "geometry": {
+          "location": {
+            "lat": 33.8143901,
+            "lng": 136.0487047
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 35.2577125,
+              "lng": 136.9880437
+            },
+            "southwest": {
+              "lat": 33.722959,
+              "lng": 135.8528907
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、滋賀県",
+        "name": "滋賀県",
+        "place_id": "ChIJfRcKhFR_AWAR0Ih82zbkEkQ",
+        "geometry": {
+          "location": {
+            "lat": 35.3292014,
+            "lng": 136.0563212
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 35.7037168,
+              "lng": 136.4549764
+            },
+            "southwest": {
+              "lat": 34.7905703,
+              "lng": 135.7636632
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、京都府",
+        "name": "京都府",
+        "place_id": "ChIJYRsf-SB0_18ROJWxOMJ7Clk",
+        "geometry": {
+          "location": {
+            "lat": 35.1566609,
+            "lng": 135.5251982
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 35.7792551,
+              "lng": 136.0554865
+            },
+            "southwest": {
+              "lat": 34.70600840000001,
+              "lng": 134.853855
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、大阪府",
+        "name": "大阪府",
+        "place_id": "ChIJ13DMKmvoAGARbVkfgUj_maM",
+        "geometry": {
+          "location": {
+            "lat": 34.6413315,
+            "lng": 135.5629394
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 35.0512828,
+              "lng": 135.746714
+            },
+            "southwest": {
+              "lat": 34.2715844,
+              "lng": 135.0918795
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、兵庫県",
+        "name": "兵庫県",
+        "place_id": "ChIJoa4nX2HyVDURoQquLKTzHh8",
+        "geometry": {
+          "location": {
+            "lat": 34.8579518,
+            "lng": 134.5453787
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 35.6747426,
+              "lng": 135.4684307
+            },
+            "southwest": {
+              "lat": 34.1551508,
+              "lng": 134.2527764
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、奈良県",
+        "name": "奈良県",
+        "place_id": "ChIJ0yeFNyrHBmARcsHp9gNgR-o",
+        "geometry": {
+          "location": {
+            "lat": 34.2975528,
+            "lng": 135.8279734
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 34.7814329,
+              "lng": 136.2298002
+            },
+            "southwest": {
+              "lat": 33.8589548,
+              "lng": 135.5388341
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、和歌山県",
+        "name": "和歌山県",
+        "place_id": "ChIJ1wKhtPIEB2ARnU_gb_EzSNQ",
+        "geometry": {
+          "location": {
+            "lat": 33.9480914,
+            "lng": 135.3745358
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 34.3845125,
+              "lng": 136.0133965
+            },
+            "southwest": {
+              "lat": 33.4330317,
+              "lng": 134.9990036
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、鳥取県",
+        "name": "鳥取県",
+        "place_id": "ChIJB0-MsELXVTUR7pLgQAxBLzs",
+        "geometry": {
+          "location": {
+            "lat": 35.3573161,
+            "lng": 133.4066618
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 35.6146071,
+              "lng": 134.5153668
+            },
+            "southwest": {
+              "lat": 35.0576768,
+              "lng": 133.1359308
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、島根県",
+        "name": "島根県",
+        "place_id": "ChIJocsETn0DWzURzBYpE2fXNC0",
+        "geometry": {
+          "location": {
+            "lat": 35.1244094,
+            "lng": 132.6293446
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 36.3561638,
+              "lng": 133.3906378
+            },
+            "southwest": {
+              "lat": 34.3026637,
+              "lng": 131.6679043
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、岡山県",
+        "name": "岡山県",
+        "place_id": "ChIJh5W24jhmVDURU20vGB0GIdI",
+        "geometry": {
+          "location": {
+            "lat": 34.8963407,
+            "lng": 133.6375314
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 35.3529353,
+              "lng": 134.4132402
+            },
+            "southwest": {
+              "lat": 34.2984257,
+              "lng": 133.2667782
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、広島県",
+        "name": "広島県",
+        "place_id": "ChIJa_O3GdGJUDURv90VFtIkjqU",
+        "geometry": {
+          "location": {
+            "lat": 34.8823408,
+            "lng": 133.0194897
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 35.1057437,
+              "lng": 133.4706568
+            },
+            "southwest": {
+              "lat": 34.0278069,
+              "lng": 132.0364108
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、山口県",
+        "name": "山口県",
+        "place_id": "ChIJ_Y9adhnHRDURcOJUU8K8DEk",
+        "geometry": {
+          "location": {
+            "lat": 34.2796769,
+            "lng": 131.5212742
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 34.7994246,
+              "lng": 132.4921019
+            },
+            "southwest": {
+              "lat": 33.712692,
+              "lng": 130.774777
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、徳島県",
+        "name": "徳島県",
+        "place_id": "ChIJszfXrltNUjURDDHPZPlj3f0",
+        "geometry": {
+          "location": {
+            "lat": 33.9419655,
+            "lng": 134.3236557
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 34.2520362,
+              "lng": 134.822282
+            },
+            "southwest": {
+              "lat": 33.5386091,
+              "lng": 133.6607272
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、香川県",
+        "name": "香川県",
+        "place_id": "ChIJr363rNTcUzURsdqbibLWgS0",
+        "geometry": {
+          "location": {
+            "lat": 34.2225915,
+            "lng": 134.0199152
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 34.5646136,
+              "lng": 134.4474078
+            },
+            "southwest": {
+              "lat": 34.0122456,
+              "lng": 133.4465942
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、愛媛県",
+        "name": "愛媛県",
+        "place_id": "ChIJraqWR5CVTzUR272f78CTlP8",
+        "geometry": {
+          "location": {
+            "lat": 33.6025306,
+            "lng": 132.7857583
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 34.30157640000001,
+              "lng": 133.6927988
+            },
+            "southwest": {
+              "lat": 32.8850056,
+              "lng": 132.0123102
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、高知県",
+        "name": "高知県",
+        "place_id": "ChIJa2Hq0TSpSDURow2-nqQtVKA",
+        "geometry": {
+          "location": {
+            "lat": 33.5481246,
+            "lng": 133.2521507
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 33.8833998,
+              "lng": 134.3147007
+            },
+            "southwest": {
+              "lat": 32.7024995,
+              "lng": 132.4795565
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、福岡県",
+        "name": "福岡県",
+        "place_id": "ChIJJbF-93qBQTURTThRSvsPopc",
+        "geometry": {
+          "location": {
+            "lat": 33.56625590000001,
+            "lng": 130.715857
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 34.2498952,
+              "lng": 131.190552
+            },
+            "southwest": {
+              "lat": 32.9999203,
+              "lng": 129.9813555
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、佐賀県",
+        "name": "佐賀県",
+        "place_id": "ChIJVVXx4qHSQTUR2vEeH2zUCzA",
+        "geometry": {
+          "location": {
+            "lat": 33.3078371,
+            "lng": 130.2271243
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 33.6190451,
+              "lng": 130.5422825
+            },
+            "southwest": {
+              "lat": 32.9505382,
+              "lng": 129.7369128
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、長崎県",
+        "name": "長崎県",
+        "place_id": "ChIJC46vsRChaTURlUoIqR4qlSQ",
+        "geometry": {
+          "location": {
+            "lat": 33.2488525,
+            "lng": 129.6930912
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 34.7275591,
+              "lng": 130.3903067
+            },
+            "southwest": {
+              "lat": 31.967063,
+              "lng": 128.104469
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、熊本県",
+        "name": "熊本県",
+        "place_id": "ChIJpzy0q613QDUR8fFMMDKVF_I",
+        "geometry": {
+          "location": {
+            "lat": 32.8594427,
+            "lng": 130.7969149
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 33.195191,
+              "lng": 131.3294493
+            },
+            "southwest": {
+              "lat": 32.0949209,
+              "lng": 129.9387669
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、大分県",
+        "name": "大分県",
+        "place_id": "ChIJk0fY45VcRDUR4r42cPK3Fz8",
+        "geometry": {
+          "location": {
+            "lat": 33.1589299,
+            "lng": 131.3611121
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 33.740311,
+              "lng": 132.1774402
+            },
+            "southwest": {
+              "lat": 32.71451589999999,
+              "lng": 130.824753
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、宮崎県",
+        "name": "宮崎県",
+        "place_id": "ChIJYfx_FietODURKhlreMr3-Cg",
+        "geometry": {
+          "location": {
+            "lat": 32.6036022,
+            "lng": 131.441251
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 32.8390236,
+              "lng": 131.8856665
+            },
+            "southwest": {
+              "lat": 31.3564254,
+              "lng": 130.7033768
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、鹿児島県",
+        "name": "鹿児島県",
+        "place_id": "ChIJA4AW0cJbGDURcNZa6PLRr40",
+        "geometry": {
+          "location": {
+            "lat": 31.3911958,
+            "lng": 130.8778586
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 32.3106641,
+              "lng": 131.2054152
+            },
+            "southwest": {
+              "lat": 27.0186808,
+              "lng": 128.3953454
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  },
+  {
+    "candidates": [
+      {
+        "formatted_address": "日本、沖縄県",
+        "name": "沖縄県",
+        "place_id": "ChIJ51ur7mJw9TQR79H9hnJhuzU",
+        "geometry": {
+          "location": {
+            "lat": 26.1201911,
+            "lng": 127.7025012
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 27.8858934,
+              "lng": 131.33213
+            },
+            "southwest": {
+              "lat": 24.0455949,
+              "lng": 122.9336696
+            }
+          }
+        },
+        "types": ["administrative_area_level_1", "political"],
+        "business_status": "",
+        "plus_code": null
+      }
+    ],
+    "status": "OK"
+  }
+]
